@@ -24,7 +24,7 @@ defmodule PhoenixClient.Mixfile do
 
   defp deps do
     [
-      {:websocket_client, "~> 1.3"},
+      {:websocket_client, "~> 1.5"},
       {:jason, "~> 1.0", optional: true},
       {:phoenix, github: "phoenixframework/phoenix", tag: "v1.5.1", only: :test},
       {:plug_cowboy, "~> 2.0", only: :test},
